@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshots/Blockton-Desktop.png]
-![screenshots/Blockton-Mobile.png] 
+![/screenshots/Blockton-Desktop.png]
+![/screenshots/Blockton-Mobile.png] 
 ### Links
 
 - Solution URL: [(https://www.frontendmentor.io/solutions/fmarticlepreview-nS90wjLJVf)]
