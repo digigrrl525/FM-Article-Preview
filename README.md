@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![./screenshots/Blockton-Desktop.png]
-![./screenshots/Blockton-Mobile.png] 
+![screenshots/Blockton-Desktop.png]
+![screenshots/Blockton-Mobile.png] 
 ### Links
 
-- Solution URL: [Add solution URL here]
+- Solution URL: [(https://www.frontendmentor.io/solutions/fmarticlepreview-nS90wjLJVf)]
 - Live Site URL: [(https://digigrrl525.github.io/FM-Article-Preview/)]
 
 ## My process
