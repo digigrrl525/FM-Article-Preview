@@ -1,0 +1,149 @@
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dark-cyan: hsl(179, 100%, 13%);
+
+    --trans-white: hsla(0, 0%, 100%, 0.65); /*paragraphs*/
+    --gray: hsl(0, 0%, 95%); /*background, headings, buttons*/
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    margin: 60px auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    width: 153px;
+    height: 280px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-align: left;
+    padding: 36px;
+}
+
+h1 {
+    color: var(--gray);
+    text-transform: uppercase;
+    padding: 16px 0;
+}
+
+p {
+    color: var(--trans-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-size: 12px;
+}
+
+button {
+    background-color: var(--gray);
+    border: none;
+    border-radius: 30px;
+    padding: 8px 24px;
+    font-size: 12px;
+}
+
+button:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+#sedan {
+    background-color: var(--orange);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#sedan>button {
+    color: var(--orange);
+}
+
+#sedan>button:hover {
+    color: var(--gray);
+}
+
+#suv {
+    background-color: var(--cyan);
+}
+
+#suv>button {
+   color: var(--cyan);
+   margin-top: 16px;
+}
+
+#suv>button:hover {
+    color: var(--gray);
+    margin-top: 16px;
+ }
+
+#luxury {
+    background-color: var(--dark-cyan);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#luxury>button {
+    color: var(--dark-cyan);
+}
+
+#luxury>button:hover {
+    color: var(--gray);
+}
+
+/* Footer */
+footer {
+    margin-top: 24px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 153px;
+        height: auto;
+        padding: 36px;
+    }
+
+    #sedan {
+        background-color: var(--orange);
+        border-radius: 0;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+    
+    #luxury {
+        background-color: var(--dark-cyan);
+        border-radius: 0;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+}
