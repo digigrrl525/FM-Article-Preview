@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here]
-- Live Site URL: [https://digigrrl525.github.io/FM-Article-Preview/]
+- Live Site URL: [(https://digigrrl525.github.io/FM-Article-Preview/)]
 
 ## My process
 
