@@ -18,17 +18,17 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
+- View the optimal layout for the component depending on the device's screen size
 - See the social media share links when they click the share icon
 
 ### Screenshot
 
-![.screenshots/Blockton-Desktop.png]
-![.screenshots/Blockton-Mobile.png] 
+![./screenshots/Blockton-Desktop.png]
+![./screenshots/Blockton-Mobile.png] 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]
+- Live Site URL: [https://digigrrl525.github.io/FM-Article-Preview/]
 
 ## My process
 
